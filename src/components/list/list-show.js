@@ -4,7 +4,7 @@ import { Link, browserHistory } from "react-router";
 import { fetchPost, deletePost } from "../../actions/index";
 import axios from "axios";
 
-const ROOT_URL = "http://fierce-basin-40516.herokuapp.com/api";
+const ROOT_URL = "http://eh-bucketlist-server.herokuapp.com/";
 
 const config = {
 	headers: { authorization: localStorage.getItem("token") }
