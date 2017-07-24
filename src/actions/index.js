@@ -3,7 +3,7 @@ import { browserHistory } from "react-router";
 import { AUTH_USER, UNAUTH_USER, AUTH_ERROR, CREATE_POSTS, FETCH_POSTS, FETCH_POST, DELETE_POST } from "./types";
 import authReducer from "../reducers/auth_reducer";
 
-const ROOT_URL = "http://eh-bucketlist-server.herokuapp.com/";
+const ROOT_URL = "http://eh-bucketlist-server.herokuapp.com";
 
 var config = {
 	headers: { authorization: localStorage.getItem("token") }
